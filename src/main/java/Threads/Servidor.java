@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Servidor {
-       private static final int PUERTO = 5005;
+    private static final int PUERTO = 5005;
     private static final String MSG_SALIDA = "SALIR";
 
     private static Map<String, ClienteHandler> clientes = new ConcurrentHashMap<>();

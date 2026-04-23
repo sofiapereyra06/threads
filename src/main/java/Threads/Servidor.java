@@ -21,7 +21,7 @@ public class Servidor {
             // el servidor acepta una conexión y la atiende, despues espera otra
             while (true) {
 
-                Socket clienteSocket = serverSocket.accept();
+                Socket clienteSocket = serverSocket.accept(); 
 
                 System.out.println("[CONEXION] Cliente conectado desde: " +
                         clienteSocket.getInetAddress().getHostAddress());
